@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<title> Simple Sj</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/simplesj.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="back">
+			<div class="pad shape1" data-pad="1">
+				<audio preload="auto" class="sound1">
+					<source src="sounds/mp3/cat1.wav" type="audio/mpeg"/>
+				</audio>
+			</div>
+			<div class="pad shape2" data-pad="2">
+				<audio preload="auto" class="sound2">
+					<source src="sounds/mp3/cat2.wav"  type="audio/mpeg"/>
+				</audio>
+			</div>
+			<div class="pad shape3" data-pad="3">
+				<audio preload="auto" class="sound3">
+					<source src="sounds/mp3/cat3.wav" type="audio/mpeg"/>
+				</audio>
+			</div>
+			<div class="pad shape4" data-pad="4">
+				<audio preload="auto" class="sound4">
+					<source src="sounds/mp3/cat4.wav" type="audio/mpeg"/>
+				</audio>
+			</div>
+			<div class="circle">
+				<div class="level">
+					<h2>Level: 1</h2>
+				</div>
+				<div class="score">
+					<h2>Meows: 0</h2>
+				</div>
+				<ul class="difficulty">
+
+					<li>
+						<input type="radio" class="difOpt" name="difficulty" value="2">Easy
+					</li>
+					<li>
+						<input type="radio" class="difOpt" name="difficulty" value="1" checked>Normal
+					</li>
+					<li>
+						<input type="radio" class="difOpt" name="difficulty" value="0.5">Hard
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="sButton">
+			<button class="start">MEOW!</button>
+		</div>
+	</div>
+</body>
+</html>

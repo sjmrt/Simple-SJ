@@ -1,0 +1,108 @@
+body {
+	background-color: #9CAFB7;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 3px;
+}
+
+.wrapper {
+	position: relative;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.back {
+	position: absolute;
+	top: 170px;
+	width: 640px;
+	height: 640px;
+	z-index: 0;
+	background-color: #000;
+	border-radius: 100%;
+}
+
+.pad {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 1;
+	margin: 10px;
+	opacity: .5;
+}
+
+.pad:focus, .pad:active, .pad.active, .pad:focus:active {
+	background-image: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.shape1 {
+	border-top-left-radius: 100%;
+	background-color: #32936F;
+}
+
+.shape2 {
+	float: left;
+	border-top-right-radius: 100%;
+	background-color: #E83F6F;
+	clear: right;
+}
+
+.shape3 {
+	float: left;
+ 	border-bottom-left-radius: 100%;
+	background-color: #FFBF00;
+	clear: left;
+}
+
+.shape4 {
+	float: left;
+	border-bottom-right-radius: 100%;
+	background-color: #2274A5;
+}
+
+.circle {
+	position: absolute;
+	top: 195px;
+	left: 195px;
+	width: 250px;
+	height: 250px;
+	background: #000;
+	border-radius: 50%;
+	z-index: 9;
+	font-color: white;
+}
+
+.level, .score {
+	width: 50%;
+	float: left;
+	text-align: center;
+	z-index: 10;
+}
+
+.startButton {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.start {
+	position: absolute;
+	left: 283px;
+	bottom: 264px;
+	width: 70px;
+	height: 40px;
+	text-align: center;
+	z-index: 10;
+	border-radius: 30%;
+}
